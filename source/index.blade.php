@@ -2,6 +2,6 @@
 
 @section('body')
   @include('partials.hero')
-  @include('partials.calltoaction')
-  @include('partials.footer')
+  {{-- @include('partials.calltoaction') --}}
+  {{-- @include('partials.footer') --}}
 @endsection

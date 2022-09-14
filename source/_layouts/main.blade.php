@@ -8,8 +8,10 @@
         <title>{{ $page->title }}</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
+    {{-- <body class="text-gray-900 font-sans antialiased"> --}}
     <body class="text-gray-900 font-sans antialiased">
         @yield('body')
     </body>
